@@ -676,7 +676,7 @@ export const projects: Project[] = [
     "category": "Brand & commerce",
     "description": "Maintenance of a customer rewards platform with skincare samples, receipt uploads, points, and campaigns.",
     "role": "Maintainer",
-    "context": "Mediatropy",
+    "context": "Bonsey Jaden / CUE Group / Mediatropy",
     "year": "",
     "stack": {
       "CMS": [
