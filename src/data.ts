@@ -438,7 +438,7 @@ export const projects: Project[] = [
     "description": "Frontend support for the commemorative website telling the story of DSO’s 50 years of defence research.",
     "role": "Frontend Developer",
     "context": "Bonsey Jaden",
-    "year": "2022 – 2024",
+    "year": "2022",
     "stack": {
       "Frontend": [
         "AngularJS",
@@ -473,7 +473,7 @@ export const projects: Project[] = [
     "description": "Recruitment website for DSO National Laboratories, with careers, scholarships, internships, and stories.",
     "role": "Frontend Developer",
     "context": "Bonsey Jaden",
-    "year": "2022 – 2024",
+    "year": "2022",
     "stack": {
       "Frontend": [
         "HTML",
