@@ -22,6 +22,8 @@ npm run preview
 
 Import `nooralizahar0925/my-portfolio` into Vercel. The included `vercel.json` selects Vite, runs `npm run build`, and serves `dist`. No environment variables are required. The root directory is the repository root. GitHub Actions checks the production build; deployment is managed by Vercel.
 
+See [VERCEL-DEPLOYMENT.md](VERCEL-DEPLOYMENT.md) for the import steps and exact project settings.
+
 ## Edit the portfolio
 
 - `src/data.ts`: projects, project-specific skills, career roles, and contact links. Omit a project's `url` to hide its website link completely.
