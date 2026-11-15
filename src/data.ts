@@ -1032,6 +1032,7 @@ export const projects: Project[] = [
   },
   {
     "id": "misc",
+    "image": "/projects/misc.webp",
     "number": "22",
     "name": "MISC Group",
     "category": "Maintenance",

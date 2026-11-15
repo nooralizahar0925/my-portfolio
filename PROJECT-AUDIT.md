@@ -19,7 +19,7 @@ Reviewed 15 November 2026. Professional roles and historical technologies come f
 | [American Standard APAC](https://www.americanstandard-apac.com/) | LinkedIn records Craft CMS maintenance. Current public site uses WordPress/Elementor. Portfolio keeps Craft CMS and explicitly notes the later platform change. |
 | [Air Selangor](https://www.airselangor.com/) | LinkedIn records WordPress maintenance. Current public site uses Next.js. Portfolio keeps the historical stack and notes the platform change. |
 | [Everise](https://weareeverise.com/) | WordPress maintenance documented on LinkedIn and verified in current public source. |
-| [MISC Group](https://www.miscgroup.com/) | Umbraco maintenance documented on LinkedIn. Current site returned a Cloudflare challenge; no challenge-page screenshot was included. |
+| [MISC Group](https://www.miscgroup.com/) | Umbraco maintenance documented on LinkedIn. The initial screenshot attempt encountered Cloudflare; a later browser visit loaded the live homepage successfully. Its verified screenshot is included as a local WebP asset. |
 
 SIVA Kemenperin and Pratista Skincare appear on LinkedIn, but their historical domains did not resolve during the audit. They remain description-only entries with no guessed stack or broken website link. The historical SISDA LMS address did not expose enough useful content to verify a live project, so no website link was added.
 
