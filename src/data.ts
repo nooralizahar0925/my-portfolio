@@ -118,7 +118,7 @@ export const projects: Project[] = [
     description: 'WordPress development, new features, and ongoing maintenance for SkinPen’s international website and regional sites in Ireland, the UK, and Germany.',
     role: 'Developer',
     context: 'Mediatropy',
-    year: '',
+    year: "2026 – Present",
     stack: {
       'CMS & theme': ['WordPress', 'PHP', 'Custom theme development'],
       'Frontend': ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Slick Carousel'],
@@ -149,7 +149,7 @@ export const projects: Project[] = [
     "description": "Custom WordPress website for a Singapore matcha brand, with product discovery, education, and a responsive editorial layout.",
     "role": "Main Developer",
     "context": "Mediatropy",
-    "year": "",
+    "year": "2026 – Present",
     "stack": {
       "CMS": [
         "WordPress",
@@ -201,7 +201,7 @@ export const projects: Project[] = [
     "description": "A Sitefinity website presenting NTU’s engineering programmes, research, news, and institutional content.",
     "role": "Developer",
     "context": "Mediatropy",
-    "year": "",
+    "year": "2026 – Present",
     "stack": {
       "CMS": [
         "Sitefinity",
@@ -243,7 +243,7 @@ export const projects: Project[] = [
     "description": "A custom WordPress website for nanofabrication facilities, equipment, research capabilities, and facility access.",
     "role": "Main Developer",
     "context": "Mediatropy",
-    "year": "",
+    "year": "2026 – Present",
     "stack": {
       "CMS": [
         "WordPress",
@@ -297,7 +297,7 @@ export const projects: Project[] = [
     "description": "A resort website with custom WordPress development, scroll animation, booking widgets, and marketing integrations.",
     "role": "Main Developer",
     "context": "Mediatropy",
-    "year": "",
+    "year": "2026 – Present",
     "stack": {
       "CMS": [
         "WordPress",
@@ -355,7 +355,7 @@ export const projects: Project[] = [
     "description": "WordPress development for the Maldives resort, including custom content blocks, SEO, analytics, and booking integrations.",
     "role": "Developer",
     "context": "Bonsey Jaden / Mediatropy",
-    "year": "2023",
+    "year": "2023 – Present",
     "stack": {
       "CMS": [
         "WordPress",
@@ -428,7 +428,7 @@ export const projects: Project[] = [
     "description": "Frontend support for the commemorative website telling the story of DSO’s 50 years of defence research.",
     "role": "Frontend Developer",
     "context": "Bonsey Jaden",
-    "year": "2022",
+    "year": "2022 – 2024",
     "stack": {
       "Frontend": [
         "AngularJS",
@@ -463,7 +463,7 @@ export const projects: Project[] = [
     "description": "Recruitment website for DSO National Laboratories, with careers, scholarships, internships, and stories.",
     "role": "Frontend Developer",
     "context": "Bonsey Jaden",
-    "year": "",
+    "year": "2022 – 2024",
     "stack": {
       "Frontend": [
         "HTML",
@@ -677,7 +677,7 @@ export const projects: Project[] = [
     "description": "Maintenance of a customer rewards platform with skincare samples, receipt uploads, points, and campaigns.",
     "role": "Maintainer",
     "context": "Bonsey Jaden / CUE Group / Mediatropy",
-    "year": "",
+    "year": "2023 – Present",
     "stack": {
       "CMS": [
         "WordPress",
@@ -1032,7 +1032,7 @@ export const projects: Project[] = [
     "description": "Maintenance of the regional American Standard website on Craft CMS.",
     "role": "Maintainer",
     "context": "Bonsey Jaden / CUE Group",
-    "year": "",
+    "year": "2022 – 2024",
     "stack": {
       "CMS": [
         "Craft CMS"
@@ -1065,7 +1065,7 @@ export const projects: Project[] = [
     "description": "Maintenance of Air Selangor’s WordPress website during my agency engagement.",
     "role": "Maintainer",
     "context": "Bonsey Jaden / CUE Group",
-    "year": "",
+    "year": "2022 – 2024",
     "stack": {
       "CMS": [
         "WordPress",
@@ -1100,7 +1100,7 @@ export const projects: Project[] = [
     "description": "Maintenance work on the Everise corporate WordPress website.",
     "role": "Maintainer",
     "context": "Bonsey Jaden / CUE Group",
-    "year": "",
+    "year": "2022 – 2024",
     "stack": {
       "CMS": [
         "WordPress",
@@ -1133,7 +1133,7 @@ export const projects: Project[] = [
     description: 'Maintenance of the corporate WordPress website during my engagements with Bonsey Jaden and CUE Group.',
     role: 'Maintainer',
     context: 'Bonsey Jaden / CUE Group',
-    year: '',
+    year: "2022 – 2024",
     stack: {
       'CMS & theme': ['WordPress', 'PHP', 'Custom WordPress theme'],
       'Frontend': ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Fancybox', 'VenoBox', 'NiceScroll', 'Glide.js'],
@@ -1155,7 +1155,7 @@ export const projects: Project[] = [
     "description": "Maintenance of an enterprise corporate website on Umbraco CMS.",
     "role": "Maintainer",
     "context": "Bonsey Jaden / CUE Group",
-    "year": "",
+    "year": "2022 – 2024",
     "stack": {
       "CMS": [
         "Umbraco",
@@ -1188,7 +1188,7 @@ export const projects: Project[] = [
     "description": "Maintenance of the PEDIGREE® (WeR4Pets) mobile app and its backend using React Native and Express.",
     "role": "App Maintainer",
     "context": "Bonsey Jaden / CUE Group",
-    "year": "",
+    "year": "2022 – 2024",
     "stack": {
       "Mobile": [
         "React Native",
