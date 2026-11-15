@@ -20,6 +20,8 @@ export interface Project {
   contributions: string[];
   detail: string;
   url?: string;
+  urlLabel?: string;
+  appUrl?: string;
   image?: string;
   note?: string;
 }
@@ -1127,10 +1129,10 @@ export const projects: Project[] = [
   {
     "id": "wer4pets",
     "number": "24",
-    "name": "WeR4Pets",
+    "name": "WeR4Pets / PEDIGREE® App",
     "category": "Mobile & platforms",
-    "description": "Maintenance work across a pet-focused mobile application and its backend.",
-    "role": "Maintainer",
+    "description": "Maintenance of the PEDIGREE® (WeR4Pets) mobile app and its backend using React Native and Express.",
+    "role": "App Maintainer",
     "context": "Bonsey Jaden / CUE Group",
     "year": "",
     "stack": {
@@ -1153,7 +1155,11 @@ export const projects: Project[] = [
       "React Native mobile application maintenance",
       "Express backend maintenance"
     ],
-    "detail": "Maintenance work across a pet-focused mobile application and its backend."
+    "detail": "App maintenance for PEDIGREE® (WeR4Pets) during my work with Bonsey Jaden / CUE Group, covering the React Native mobile application and Express backend. The Pedigree Philippines website is included as a related brand website.",
+    "url": "https://www.pedigree.com.ph/",
+    "urlLabel": "Related website",
+    "appUrl": "https://play.google.com/store/apps/details?id=com.mars.wer4pet&hl=en",
+    "image": "/projects/wer4pets.webp"
   },
   {
     "id": "e-archive",

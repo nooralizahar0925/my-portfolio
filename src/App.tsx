@@ -60,6 +60,9 @@ function ProjectImage({ project, eager = false }: { project: Project; eager?: bo
   if (project.id === 'sapa') {
     return <div className="mobile-preview"><div className="mobile-preview-label"><span>GAMPONG BLANG DIGITAL</span><strong>Village services.<br />In your pocket.</strong><span>FLUTTER APP + REACT DASHBOARD + API</span></div><div className="phone-pair"><img src="/projects/sapa.webp" alt="Gampong Blang Digital resident app home screen" loading={eager ? 'eager' : 'lazy'} width="540" height="1200" /><img src="/projects/sapa-services.webp" alt="Gampong Blang Digital village services screen" loading={eager ? 'eager' : 'lazy'} width="540" height="1200" /></div></div>;
   }
+  if (project.id === 'wer4pets') {
+    return <div className="mobile-preview pedigree-preview"><div className="mobile-preview-label"><span>PEDIGREE® / WeR4Pets</span><strong>Mobile app<br />maintenance.</strong><span>REACT NATIVE + EXPRESS</span></div><div className="phone-pair"><img src="/projects/wer4pets.webp" alt="PEDIGREE WeR4Pets mobile app screenshot from Google Play" loading={eager ? 'eager' : 'lazy'} width="540" height="960"/><img src="/projects/wer4pets-care.webp" alt="PEDIGREE WeR4Pets pet care app screenshot from Google Play" loading={eager ? 'eager' : 'lazy'} width="540" height="960"/></div></div>;
+  }
   if (!project.image) return null;
   return <div className="website-preview"><div className="browser-bar" aria-hidden="true"><span /><span /><span /><small>{project.url ? new URL(project.url).hostname.replace('www.', '') : project.name}</small></div><img src={project.image} alt={`${project.name} website screenshot`} loading={eager ? 'eager' : 'lazy'} width="1200" height="634" /></div>;
 }
@@ -80,7 +83,7 @@ function ProjectDialog({ project, close }: { project: Project; close: () => void
       <h3>What I worked on</h3><ul className="contributions">{project.contributions.map(item => <li key={item}><Check size={15} />{item}</li>)}</ul>
       <h3>Technology & skills</h3><div className="stack-groups">{Object.entries(project.stack).map(([group, technologies]) => <div className="stack-group" key={group}><span>{group}</span><div className="tags">{technologies.map(technology => <span key={technology}>{technology}</span>)}</div></div>)}</div>
       {project.note && <p className="project-note">{project.note}</p>}
-      {project.url && <a className="button button-dark dialog-visit" href={project.url} target="_blank" rel="noreferrer">Visit live website <ExternalLink size={16} /></a>}
+      {project.appUrl && <a className="button button-dark dialog-visit" href={project.appUrl} target="_blank" rel="noreferrer">View app on Google Play <ExternalLink size={16}/></a>}{project.url && <a className={project.appUrl ? 'text-link related-website-link' : 'button button-dark dialog-visit'} href={project.url} target="_blank" rel="noreferrer">{project.urlLabel || 'Visit live website'} <ExternalLink size={16} /></a>}
     </div>
   </dialog>;
 }
@@ -92,7 +95,7 @@ function ProjectCard({ project, open, filterTechnology }: { project: Project; op
     <h3><button onClick={() => open(project)}>{project.name}<ArrowUpRight size={23} /></button></h3>
     <div className="project-role">{project.role}<span> / </span>{project.context}</div><p>{project.description}</p>
     <div className="tags project-tags">{project.tags.map(tag => <button title={`Show projects using ${tag}`} key={tag} onClick={() => filterTechnology(tag)}>{tag}</button>)}</div>
-    <div className="project-actions"><button onClick={() => open(project)}>View contributions <ArrowRight size={14} /></button>{project.url && <a href={project.url} target="_blank" rel="noreferrer">Live website <ExternalLink size={13} /></a>}</div>
+    <div className="project-actions"><button onClick={() => open(project)}>View contributions <ArrowRight size={14} /></button>{project.appUrl && <a href={project.appUrl} target="_blank" rel="noreferrer">Google Play <ExternalLink size={13}/></a>}{project.url && <a href={project.url} target="_blank" rel="noreferrer">{project.urlLabel || 'Live website'} <ExternalLink size={13} /></a>}</div>
   </article>;
 }
 

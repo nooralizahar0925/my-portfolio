@@ -28,7 +28,8 @@ SIVA Kemenperin and Pratista Skincare appear on LinkedIn, but their historical d
 
 - **SAPA Gampong / Gampong Blang Digital:** existing repository README, backend/dashboard package manifests, Flutter pubspec, and deployment runbook verify the displayed stack. Images come from the repository’s prepared Play Store screenshots. No production or resident data was accessed.
 - **Intranet JLM:** technologies and responsibilities are documented in the public professional profile. The public sign-in landing page at `https://intranet.jlm.net.id/`, supplied directly by Noor, is captured as the project image. No login was performed and no internal employee data was accessed.
-- **Bank Jatim CRM, KOIN POS/mobile, PUPR E-Archive, Natieva, and WeR4Pets:** technologies and responsibilities are limited to the public professional profile. No fabricated screenshots or public endpoints are supplied.
+- **WeR4Pets / PEDIGREE® App:** Noor explicitly confirmed the work was app maintenance and supplied the [Google Play listing](https://play.google.com/store/apps/details?id=com.mars.wer4pet&hl=en) and [related Pedigree Philippines website](https://www.pedigree.com.ph/). React Native and Express maintenance are documented in the professional profile. The project uses official app screenshots from Google Play. Pedigree is labeled as a related website, with no claim of website development or maintenance.
+- **Bank Jatim CRM, KOIN POS/mobile, PUPR E-Archive, and Natieva:** technologies and responsibilities are limited to the public professional profile. No fabricated screenshots or public endpoints are supplied.
 
 ## Solusi Proteksi Mandiri products
 
