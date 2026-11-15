@@ -32,6 +32,12 @@ See [VERCEL-DEPLOYMENT.md](VERCEL-DEPLOYMENT.md) for the import steps and exact 
 - `public/favicon.svg`: local vector favicon.
 - `public/projects/`: optimized screenshots used by project cards and detail dialogs.
 
+## SEO and search indexing
+
+The production build prerenders the portfolio into static HTML, then React hydrates it for interaction. `index.html` contains the title, description, canonical URL, social metadata, and identity structured data. `public/` includes the sitemap, robots file, share image, and icons. No runtime server is needed on Vercel.
+
+See [SEO.md](SEO.md) for the implemented settings and Google Search Console verification and sitemap submission steps.
+
 Public website links point to the current live sites, which may have changed since the listed engagement. Public projects use locally stored screenshots of the current live websites in `public/projects/`, captured in November 2026 and compressed as WebP. Internal projects without public access use labeled illustrative artwork.
 
 ## Content references
