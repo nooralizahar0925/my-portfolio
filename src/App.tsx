@@ -7,6 +7,15 @@ import { Analytics } from '@vercel/analytics/react';
 
 const categories = ['All work', 'Brand & commerce', 'Education & research', 'Hospitality', 'Government & systems', 'Mobile & platforms', 'Maintenance'];
 
+function projectCompanies(project: Project) {
+  return project.context.split(' / ').join(' · ');
+}
+
+function projectCompanyLabel(project: Project) {
+  const agencies = ['Bonsey Jaden', 'CUE Group', 'Mediatropy'];
+  return project.context.split(' / ').every(company => agencies.includes(company)) ? 'AGENCIES' : 'COMPANY';
+}
+
 const toolkit = [
   { name: 'React', label: 'Interfaces', className: 'tech-react', symbol: '⚛' },
   { name: 'WordPress', label: 'Custom websites', className: 'tech-wordpress', symbol: 'W' },
@@ -80,7 +89,7 @@ function ProjectDialog({ project, close }: { project: Project; close: () => void
     <div className="dialog-toolbar"><span>PROJECT / {project.number}</span><button className="icon-button" onClick={close} aria-label="Close project"><X size={21} /></button></div>
     {project.image && <ProjectImage project={project} eager />}
     <div className="dialog-content"><span className="eyebrow">{project.category} {project.year && ` / ${project.year}`}</span><h2 id="project-title">{project.name}</h2><p className="dialog-description">{project.detail}</p>
-      <div className="project-meta"><div><span>MY ROLE</span><strong>{project.role}</strong></div><div><span>COMPANY / CONTEXT</span><strong>{project.context}</strong></div></div>
+      <div className="project-meta"><div><span>MY ROLE</span><strong>{project.role}</strong></div><div><span>{projectCompanyLabel(project)}</span><strong>{projectCompanies(project)}</strong></div></div>
       <h3>What I worked on</h3><ul className="contributions">{project.contributions.map(item => <li key={item}><Check size={15} />{item}</li>)}</ul>
       <h3>Technology & skills</h3><div className="stack-groups">{Object.entries(project.stack).map(([group, technologies]) => <div className="stack-group" key={group}><span>{group}</span><div className="tags">{technologies.map(technology => <span key={technology}>{technology}</span>)}</div></div>)}</div>
       {project.note && <p className="project-note">{project.note}</p>}
@@ -95,7 +104,7 @@ function ProjectCard({ project, open, filterTechnology }: { project: Project; op
     {project.image && <button className={`project-visual-button preview-${project.id}`} onPointerMove={moveCard} onPointerLeave={resetCard} onClick={() => open(project)} aria-label={`View ${project.name} project`}><ProjectImage project={project} /><span className="image-open"><ArrowUpRight size={23} /></span></button>}
     <div className="project-card-top"><span>{project.category}</span><span>{project.year || project.role}</span></div>
     <h3><button onClick={() => open(project)}>{project.name}<ArrowUpRight size={23} /></button></h3>
-    <div className="project-role">{project.role}<span> / </span>{project.context}</div><p>{project.description}</p>
+    <div className="project-role"><strong>{project.role}</strong><span className="project-companies">{projectCompanies(project)}</span></div><p>{project.description}</p>
     <div className="tags project-tags">{project.tags.map(tag => <button title={`Show projects using ${tag}`} key={tag} onClick={() => filterTechnology(tag)}>{tag}</button>)}</div>
     <div className="project-actions"><button onClick={() => open(project)}>View contributions <ArrowRight size={14} /></button>{project.appUrl && <a href={project.appUrl} target="_blank" rel="noreferrer">Google Play <ExternalLink size={13}/></a>}{project.url && <a href={project.url} target="_blank" rel="noreferrer">{project.urlLabel || 'Live website'} <ExternalLink size={13} /></a>}</div>
   </article>;

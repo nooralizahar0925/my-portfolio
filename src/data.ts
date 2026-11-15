@@ -199,7 +199,7 @@ export const projects: Project[] = [
     "name": "NTU College of Engineering",
     "category": "Education & research",
     "description": "A Sitefinity website presenting NTU’s engineering programmes, research, news, and institutional content.",
-    "role": "Main Developer",
+    "role": "Developer",
     "context": "NTU Singapore",
     "year": "",
     "stack": {
@@ -461,7 +461,7 @@ export const projects: Project[] = [
     "name": "DSO Career Hub — Join DSO",
     "category": "Education & research",
     "description": "Recruitment website for DSO National Laboratories, with careers, scholarships, internships, and stories.",
-    "role": "Developer",
+    "role": "Frontend Developer",
     "context": "Bonsey Jaden",
     "year": "",
     "stack": {
@@ -508,7 +508,7 @@ export const projects: Project[] = [
     "name": "My First Skool",
     "category": "Education & research",
     "description": "Preschool website development with CMS customisation, animation, SEO, and marketing integration.",
-    "role": "Developer",
+    "role": "Frontend Developer",
     "context": "Bonsey Jaden",
     "year": "2022",
     "stack": {
