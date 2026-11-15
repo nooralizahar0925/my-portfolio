@@ -85,6 +85,7 @@ function ProjectDialog({ project, close }: { project: Project; close: () => void
       <h3>Technology & skills</h3><div className="stack-groups">{Object.entries(project.stack).map(([group, technologies]) => <div className="stack-group" key={group}><span>{group}</span><div className="tags">{technologies.map(technology => <span key={technology}>{technology}</span>)}</div></div>)}</div>
       {project.note && <p className="project-note">{project.note}</p>}
       {project.appUrl && <a className="button button-dark dialog-visit" href={project.appUrl} target="_blank" rel="noreferrer">View app on Google Play <ExternalLink size={16}/></a>}{project.url && <a className={project.appUrl ? 'text-link related-website-link' : 'button button-dark dialog-visit'} href={project.url} target="_blank" rel="noreferrer">{project.urlLabel || 'Visit live website'} <ExternalLink size={16} /></a>}
+      {project.regionalSites && <section className="regional-sites" aria-labelledby="regional-sites-title"><h3 id="regional-sites-title">Regional websites</h3><div className="regional-site-links">{project.regionalSites.map(site => <a href={site.url} key={site.url} target="_blank" rel="noreferrer"><span>{site.name}<small>{new URL(site.url).hostname}</small></span><ExternalLink size={16}/></a>)}</div></section>}
     </div>
   </dialog>;
 }

@@ -22,6 +22,7 @@ export interface Project {
   url?: string;
   urlLabel?: string;
   appUrl?: string;
+  regionalSites?: { name: string; url: string }[];
   image?: string;
   note?: string;
 }
@@ -110,8 +111,39 @@ export const projects: Project[] = [
     "url": "https://gampongblangdigital.com/"
   },
   {
+    id: 'skinpen',
+    number: "02",
+    name: 'SkinPen International',
+    category: 'Brand & commerce',
+    description: 'WordPress development, new features, and ongoing maintenance for SkinPen’s international website and regional sites in Ireland, the UK, and Germany.',
+    role: 'Developer',
+    context: 'Mediatropy',
+    year: '',
+    stack: {
+      'CMS & theme': ['WordPress', 'PHP', 'Custom theme development'],
+      'Frontend': ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Slick Carousel'],
+      'Motion': ['GSAP', 'ScrollTrigger', 'AOS'],
+      'Forms & integrations': ['Contact Form 7', 'Salesforce form integration', 'reCAPTCHA', 'Google Tag Manager', 'Calendly'],
+      'SEO & consent': ['Yoast SEO', 'Cookie consent'],
+    },
+    tags: ['WordPress', 'PHP', 'Custom theme development', 'HTML', 'CSS', 'JavaScript', 'jQuery', 'Slick Carousel', 'GSAP', 'ScrollTrigger', 'AOS', 'Contact Form 7', 'Salesforce form integration', 'reCAPTCHA', 'Google Tag Manager', 'Calendly', 'Yoast SEO', 'Cookie consent'],
+    contributions: [
+      'Website development across SkinPen International and the Ireland, UK, and Germany sites',
+      'New features and responsive frontend implementation for regional brand experiences',
+      'Ongoing maintenance and updates across all four websites',
+    ],
+    detail: 'Development, feature delivery, and ongoing maintenance at Mediatropy for SkinPen’s international website and three regional websites. The sites serve patients and healthcare professionals, with treatment information, clinical resources, and clinic discovery.',
+    url: 'https://skinpeninternational.com/',
+    image: '/projects/skinpen.webp',
+    regionalSites: [
+      { name: 'Ireland', url: 'https://skinpenie.com/' },
+      { name: 'United Kingdom', url: 'https://skinpenuk.com/' },
+      { name: 'Germany', url: 'https://skinpende.com/' },
+    ],
+  },
+  {
     "id": "hellomatcha",
-    "number": "02",
+    "number": "03",
     "name": "Hello Matcha",
     "category": "Brand & commerce",
     "description": "Custom WordPress website for a Singapore matcha brand, with product discovery, education, and a responsive editorial layout.",
@@ -163,7 +195,7 @@ export const projects: Project[] = [
   },
   {
     "id": "ntu",
-    "number": "03",
+    "number": "04",
     "name": "NTU College of Engineering",
     "category": "Education & research",
     "description": "A Sitefinity website presenting NTU’s engineering programmes, research, news, and institutional content.",
@@ -205,7 +237,7 @@ export const projects: Project[] = [
   },
   {
     "id": "nanofab",
-    "number": "04",
+    "number": "05",
     "name": "NTU Nanofab",
     "category": "Education & research",
     "description": "A custom WordPress website for nanofabrication facilities, equipment, research capabilities, and facility access.",
@@ -259,7 +291,7 @@ export const projects: Project[] = [
   },
   {
     "id": "kandooma",
-    "number": "05",
+    "number": "06",
     "name": "Holiday Inn Resort Kandooma",
     "category": "Hospitality",
     "description": "A resort website with custom WordPress development, scroll animation, booking widgets, and marketing integrations.",
@@ -317,7 +349,7 @@ export const projects: Project[] = [
   },
   {
     "id": "gili",
-    "number": "06",
+    "number": "07",
     "name": "Gili Lankanfushi",
     "category": "Hospitality",
     "description": "WordPress development for the Maldives resort, including custom content blocks, SEO, analytics, and booking integrations.",
@@ -390,7 +422,7 @@ export const projects: Project[] = [
   {
     "id": "dso",
     "image": "/projects/dso.webp",
-    "number": "07",
+    "number": "08",
     "name": "DSO National Laboratories — DSO50",
     "category": "Education & research",
     "description": "Frontend support for the commemorative website telling the story of DSO’s 50 years of defence research.",
@@ -425,7 +457,7 @@ export const projects: Project[] = [
   {
     "id": "join-dso",
     "image": "/projects/join-dso.webp",
-    "number": "08",
+    "number": "09",
     "name": "DSO Career Hub — Join DSO",
     "category": "Education & research",
     "description": "Recruitment website for DSO National Laboratories, with careers, scholarships, internships, and stories.",
@@ -472,7 +504,7 @@ export const projects: Project[] = [
   },
   {
     "id": "firstskool",
-    "number": "09",
+    "number": "10",
     "name": "My First Skool",
     "category": "Education & research",
     "description": "Preschool website development with CMS customisation, animation, SEO, and marketing integration.",
@@ -531,7 +563,7 @@ export const projects: Project[] = [
   {
     "id": "pmis",
     "image": "/projects/pmis.webp",
-    "number": "10",
+    "number": "11",
     "name": "PMIS — SISDA",
     "category": "Government & systems",
     "description": "Project management information system for monitoring loan-funded water-resource projects, progress, and reporting.",
@@ -576,7 +608,7 @@ export const projects: Project[] = [
   },
   {
     "id": "momentree",
-    "number": "11",
+    "number": "12",
     "name": "Momentree",
     "category": "Brand & commerce",
     "description": "A Laravel-based digital invitation platform with custom invitation experiences, RSVP workflows, and payment integration.",
@@ -639,7 +671,7 @@ export const projects: Project[] = [
   },
   {
     "id": "cetaphil",
-    "number": "12",
+    "number": "13",
     "name": "Cetaphil Friends Singapore",
     "category": "Brand & commerce",
     "description": "Maintenance of a customer rewards platform with skincare samples, receipt uploads, points, and campaigns.",
@@ -700,7 +732,7 @@ export const projects: Project[] = [
   },
   {
     "id": "jlm",
-    "number": "13",
+    "number": "14",
     "name": "Intranet JLM",
     "category": "Government & systems",
     "description": "An internal single sign-on platform connecting HR, service registration, helpdesk, reservations, support, and mobile APIs.",
@@ -766,7 +798,7 @@ export const projects: Project[] = [
   },
   {
     "id": "loan",
-    "number": "14",
+    "number": "15",
     "name": "Loan Management System",
     "category": "Government & systems",
     "description": "Loan management, monitoring, and evaluation system for a PUPR Ministry outsourcing engagement.",
@@ -820,7 +852,7 @@ export const projects: Project[] = [
   },
   {
     "id": "siva",
-    "number": "15",
+    "number": "16",
     "name": "SIVA Kemenperin",
     "category": "Government & systems",
     "description": "Web platform project for Indonesia’s Ministry of Industry.",
@@ -842,7 +874,7 @@ export const projects: Project[] = [
   },
   {
     "id": "pratista",
-    "number": "16",
+    "number": "17",
     "name": "Pratista Skincare Consultation",
     "category": "Brand & commerce",
     "description": "Company profile and online consultation website for Pratista Skincare.",
@@ -868,7 +900,7 @@ export const projects: Project[] = [
   },
   {
     "id": "koin-mobile",
-    "number": "17",
+    "number": "18",
     "name": "KOIN Application",
     "category": "Mobile & platforms",
     "description": "Mobile application enabling store owners to browse and order products.",
@@ -896,7 +928,7 @@ export const projects: Project[] = [
   },
   {
     "id": "pos",
-    "number": "18",
+    "number": "19",
     "name": "KOIN Point of Sale",
     "category": "Government & systems",
     "description": "A web-based point-of-sale system for products, inventory, and sales, connected with internal ERP systems.",
@@ -949,7 +981,7 @@ export const projects: Project[] = [
   },
   {
     "id": "crm",
-    "number": "19",
+    "number": "20",
     "name": "Bank Jatim Training CRM",
     "category": "Government & systems",
     "description": "CRM training system built for Bank Jatim through an outsourcing engagement.",
@@ -994,7 +1026,7 @@ export const projects: Project[] = [
   {
     "id": "americanstandard",
     "image": "/projects/americanstandard.webp",
-    "number": "20",
+    "number": "21",
     "name": "American Standard APAC",
     "category": "Maintenance",
     "description": "Maintenance of the regional American Standard website on Craft CMS.",
@@ -1027,7 +1059,7 @@ export const projects: Project[] = [
   {
     "id": "airselangor",
     "image": "/projects/airselangor.webp",
-    "number": "21",
+    "number": "22",
     "name": "Air Selangor",
     "category": "Maintenance",
     "description": "Maintenance of Air Selangor’s WordPress website during my agency engagement.",
@@ -1062,7 +1094,7 @@ export const projects: Project[] = [
   {
     "id": "everise",
     "image": "/projects/everise.webp",
-    "number": "22",
+    "number": "23",
     "name": "Everise",
     "category": "Maintenance",
     "description": "Maintenance work on the Everise corporate WordPress website.",
@@ -1096,7 +1128,7 @@ export const projects: Project[] = [
   {
     "id": "misc",
     "image": "/projects/misc.webp",
-    "number": "23",
+    "number": "24",
     "name": "MISC Group",
     "category": "Maintenance",
     "description": "Maintenance of an enterprise corporate website on Umbraco CMS.",
@@ -1129,7 +1161,7 @@ export const projects: Project[] = [
   },
   {
     "id": "wer4pets",
-    "number": "24",
+    "number": "25",
     "name": "WeR4Pets / PEDIGREE® App",
     "category": "Mobile & platforms",
     "description": "Maintenance of the PEDIGREE® (WeR4Pets) mobile app and its backend using React Native and Express.",
@@ -1164,7 +1196,7 @@ export const projects: Project[] = [
   },
   {
     "id": "e-archive",
-    "number": "25",
+    "number": "26",
     "name": "PUPR E-Archive",
     "category": "Government & systems",
     "description": "Electronic archive system developed for a PUPR Ministry outsourcing engagement.",
@@ -1208,7 +1240,7 @@ export const projects: Project[] = [
   },
   {
     "id": "natieva",
-    "number": "26",
+    "number": "27",
     "name": "Natieva In-house Website",
     "category": "Brand & commerce",
     "description": "In-house website development for PT. Natieva Global Internasional.",
