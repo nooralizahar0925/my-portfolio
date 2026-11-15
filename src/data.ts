@@ -22,7 +22,8 @@ export interface Project {
   url?: string;
   urlLabel?: string;
   appUrl?: string;
-  regionalSites?: { name: string; url: string }[];
+  relatedSitesTitle?: string;
+  relatedSites?: { name: string; url: string }[];
   image?: string;
   note?: string;
 }
@@ -135,7 +136,8 @@ export const projects: Project[] = [
     detail: 'Development, feature delivery, and ongoing maintenance at Mediatropy for SkinPen’s international website and three regional websites. The sites serve patients and healthcare professionals, with treatment information, clinical resources, and clinic discovery.',
     url: 'https://skinpeninternational.com/',
     image: '/projects/skinpen.webp',
-    regionalSites: [
+    relatedSitesTitle: 'Regional websites',
+    relatedSites: [
       { name: 'Ireland', url: 'https://skinpenie.com/' },
       { name: 'United Kingdom', url: 'https://skinpenuk.com/' },
       { name: 'Germany', url: 'https://skinpende.com/' },
@@ -198,7 +200,7 @@ export const projects: Project[] = [
     "number": "04",
     "name": "NTU College of Engineering",
     "category": "Education & research",
-    "description": "A Sitefinity website presenting NTU’s engineering programmes, research, news, and institutional content.",
+    "description": "Sitefinity development for NTU’s College of Engineering and five school websites, presenting programmes, research, news, and institutional content.",
     "role": "Developer",
     "context": "Mediatropy",
     "year": "2026 – Present",
@@ -227,13 +229,21 @@ export const projects: Project[] = [
       "ShareThis"
     ],
     "contributions": [
-      "Main website development on Sitefinity",
-      "Frontend implementation for the College of Engineering website",
+      "Website development on Sitefinity",
+      "Frontend implementation for the College of Engineering and five school websites",
       "Programme, research, and editorial content interfaces"
     ],
-    "detail": "A Sitefinity website presenting NTU’s engineering programmes, research, news, and institutional content.",
+    "detail": "Sitefinity website development at Mediatropy for NTU’s College of Engineering and five school websites: CCEB, MAE, MSE, CEE, and EEE. The websites present engineering programmes, research, news, and institutional content.",
     "url": "https://www.ntu.edu.sg/engineering/",
-    "image": "/projects/ntu.webp"
+    "image": "/projects/ntu.webp",
+    relatedSitesTitle: 'Other schools',
+    relatedSites: [
+      { name: 'Chemistry, Chemical Engineering and Biotechnology (CCEB)', url: 'https://www.ntu.edu.sg/cceb' },
+      { name: 'Mechanical and Aerospace Engineering (MAE)', url: 'https://www.ntu.edu.sg/mae' },
+      { name: 'Materials Science and Engineering (MSE)', url: 'https://www.ntu.edu.sg/mse' },
+      { name: 'Civil and Environmental Engineering (CEE)', url: 'https://www.ntu.edu.sg/cee' },
+      { name: 'Electrical and Electronic Engineering (EEE)', url: 'https://www.ntu.edu.sg/eee' },
+    ],
   },
   {
     "id": "nanofab",
