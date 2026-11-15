@@ -12,6 +12,7 @@ Reviewed 15 November 2026. Professional roles and historical technologies come f
 | [Kandooma](https://kandooma-maldives.com/) | Custom WordPress theme, GSAP/ScrollTrigger, D-EDGE, Revinate forms, The Hotels Network, Contact Form 7, reCAPTCHA, Yoast SEO, and Google Tag Manager. Main-developer role confirmed by Noor. |
 | [Gili Lankanfushi](https://gili-lankanfushi.com/) | LinkedIn establishes WordPress, Gutenberg, Yoast, Google Analytics, Emarsys, Fastbooking, and LEMP. Current site additionally exposes Bootstrap, jQuery, AOS, Slick, Fancybox, D-EDGE, Revinate, and custom blocks. |
 | [DSO50](https://www.dso50.com.sg/) | LinkedIn records frontend support using AngularJS in 2022. Current site is an Angular-bundled application with Google Analytics. Portfolio preserves the historical technology and explains that the current site may have evolved. |
+| [Join DSO / DSO Career Hub](https://join.dso.org.sg/) | Bonsey Jaden engagement supplied directly by Noor. Current public HTML and compiled frontend assets verify Bootstrap, jQuery, Swiper, GSAP, ScrollTrigger, Alpine.js, Vite, and Google Analytics. Captured the public homepage for the portfolio. No engagement date or unexposed backend stack was inferred. |
 | [My First Skool](https://www.myfirstskool.com/) | LinkedIn records WordPress, GSAP, SiteOrigin, Yoast, and HubSpot. Browser-rendered HTML additionally exposes Gutenberg custom blocks, Stackable, jQuery, Swiper, and Google Tag Manager. HTTP requests sometimes receive a Cloudflare page, so browser inspection was used. |
 | [PMIS](https://pmis.sisda.net/) | Public page describes SISDA/PUPR loan-project management and loads Bootstrap, jQuery, Chart.js, WOW.js, and Owl Carousel. LinkedIn records PUPR PMIS development with Laravel and the later PMC SIMURP PMIS assistant role. Backend details beyond that are not claimed. |
 | [Momentree](https://momentree.co.id/) | Current public frontend loads Bootstrap, GSAP, ScrollTrigger, AOS, and Google Tag Manager. The existing local Momentree repository verifies Laravel, PHP, Sanctum, Laravel Mix, Sass, Axios, DataTables, Midtrans, QR codes, and spreadsheet tooling. No environment files were used. |
@@ -21,12 +22,13 @@ Reviewed 15 November 2026. Professional roles and historical technologies come f
 | [Everise](https://weareeverise.com/) | WordPress maintenance documented on LinkedIn and verified in current public source. |
 | [MISC Group](https://www.miscgroup.com/) | Umbraco maintenance documented on LinkedIn. The initial screenshot attempt encountered Cloudflare; a later browser visit loaded the live homepage successfully. Its verified screenshot is included as a local WebP asset. |
 
-SIVA Kemenperin and Pratista Skincare appear on LinkedIn, but their historical domains did not resolve during the audit. They remain description-only entries with no guessed stack or broken website link. The historical SISDA LMS address did not expose enough useful content to verify a live project, so no website link was added.
+SIVA Kemenperin and Pratista Skincare appear on LinkedIn, but their historical domains did not resolve during the audit. They remain description-only entries with no guessed stack or broken website link. Loan Management System uses the eMonitoring login URL supplied by Noor: `https://emonitoring.sisda.net/login`. Its public login page provides the screenshot; current compiled assets additionally verify Vue.js, Vue Router, Vuetify, and ApexCharts. No login was performed. The earlier `lms.sisda.net` address is not used.
 
 ## Internal and mobile work
 
 - **SAPA Gampong / Gampong Blang Digital:** existing repository README, backend/dashboard package manifests, Flutter pubspec, and deployment runbook verify the displayed stack. Images come from the repository’s prepared Play Store screenshots. No production or resident data was accessed.
-- **Intranet JLM, Bank Jatim CRM, KOIN POS/mobile, PUPR E-Archive, Natieva, and WeR4Pets:** technologies and responsibilities are limited to the public professional profile. No fabricated screenshots or public endpoints are supplied.
+- **Intranet JLM:** technologies and responsibilities are documented in the public professional profile. The public sign-in landing page at `https://intranet.jlm.net.id/`, supplied directly by Noor, is captured as the project image. No login was performed and no internal employee data was accessed.
+- **Bank Jatim CRM, KOIN POS/mobile, PUPR E-Archive, Natieva, and WeR4Pets:** technologies and responsibilities are limited to the public professional profile. No fabricated screenshots or public endpoints are supplied.
 
 ## Solusi Proteksi Mandiri products
 

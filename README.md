@@ -1,6 +1,6 @@
 # Noor Alizah Afifah R — Portfolio
 
-A responsive portfolio built with React, TypeScript, and Vite. Includes 25 projects, searchable project and technology filters, grid/index views, accessible project dialogs, interactive toolkit tiles, pointer-responsive screenshot cards, scroll reveals, career history, Solusi Proteksi Mandiri, and direct WhatsApp, email, LinkedIn, and GitHub links. Motion respects reduced-motion preferences. No contact form or backend.
+A responsive portfolio built with React, TypeScript, and Vite. Includes 26 projects, searchable project and technology filters, grid/index views, accessible project dialogs, interactive toolkit tiles, pointer-responsive screenshot cards, scroll reveals, career history, Solusi Proteksi Mandiri, and direct WhatsApp, email, LinkedIn, and GitHub links. Motion respects reduced-motion preferences. No contact form or backend.
 
 ## Run locally
 

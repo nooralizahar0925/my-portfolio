@@ -420,8 +420,56 @@ export const projects: Project[] = [
     "note": "AngularJS is the technology recorded for my engagement. The current live site may have evolved since 2022."
   },
   {
-    "id": "firstskool",
+    "id": "join-dso",
+    "image": "/projects/join-dso.webp",
     "number": "08",
+    "name": "DSO Career Hub — Join DSO",
+    "category": "Education & research",
+    "description": "Recruitment website for DSO National Laboratories, with careers, scholarships, internships, and stories.",
+    "role": "Developer",
+    "context": "Bonsey Jaden",
+    "year": "",
+    "stack": {
+      "Frontend": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "jQuery",
+        "Swiper",
+        "GSAP",
+        "ScrollTrigger",
+        "Alpine.js"
+      ],
+      "Build": [
+        "Vite"
+      ],
+      "Integrations": [
+        "Google Analytics"
+      ]
+    },
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "jQuery",
+      "Swiper",
+      "GSAP",
+      "ScrollTrigger",
+      "Alpine.js",
+      "Vite",
+      "Google Analytics"
+    ],
+    "contributions": [
+      "Website development for the DSO Career Hub during my work with Bonsey Jaden"
+    ],
+    "detail": "Development work on DSO National Laboratories’ recruitment website at Bonsey Jaden, presenting careers, scholarships, internships, and stories.",
+    "url": "https://join.dso.org.sg/"
+  },
+  {
+    "id": "firstskool",
+    "number": "09",
     "name": "My First Skool",
     "category": "Education & research",
     "description": "Preschool website development with CMS customisation, animation, SEO, and marketing integration.",
@@ -480,7 +528,7 @@ export const projects: Project[] = [
   {
     "id": "pmis",
     "image": "/projects/pmis.webp",
-    "number": "09",
+    "number": "10",
     "name": "PMIS — SISDA",
     "category": "Government & systems",
     "description": "Project management information system for monitoring loan-funded water-resource projects, progress, and reporting.",
@@ -525,7 +573,7 @@ export const projects: Project[] = [
   },
   {
     "id": "momentree",
-    "number": "10",
+    "number": "11",
     "name": "Momentree",
     "category": "Brand & commerce",
     "description": "A Laravel-based digital invitation platform with custom invitation experiences, RSVP workflows, and payment integration.",
@@ -588,7 +636,7 @@ export const projects: Project[] = [
   },
   {
     "id": "cetaphil",
-    "number": "11",
+    "number": "12",
     "name": "Cetaphil Friends Singapore",
     "category": "Brand & commerce",
     "description": "Maintenance of a customer rewards platform with skincare samples, receipt uploads, points, and campaigns.",
@@ -649,7 +697,7 @@ export const projects: Project[] = [
   },
   {
     "id": "jlm",
-    "number": "12",
+    "number": "13",
     "name": "Intranet JLM",
     "category": "Government & systems",
     "description": "An internal single sign-on platform connecting HR, service registration, helpdesk, reservations, support, and mobile APIs.",
@@ -709,11 +757,13 @@ export const projects: Project[] = [
       "REST APIs for internal mobile applications",
       "Odoo, Zimbra, Zoom, Catapa, Xendit, and Doku integrations"
     ],
-    "detail": "An internal single sign-on platform connecting HR, service registration, helpdesk, reservations, support, and mobile APIs."
+    "detail": "An internal single sign-on platform connecting HR, service registration, helpdesk, reservations, support, and mobile APIs.",
+    "image": "/projects/jlm.webp",
+    "url": "https://intranet.jlm.net.id/"
   },
   {
     "id": "loan",
-    "number": "13",
+    "number": "14",
     "name": "Loan Management System",
     "category": "Government & systems",
     "description": "Loan management, monitoring, and evaluation system for a PUPR Ministry outsourcing engagement.",
@@ -729,7 +779,11 @@ export const projects: Project[] = [
         "HTML",
         "CSS",
         "JavaScript",
-        "Bootstrap"
+        "Bootstrap",
+        "Vue.js",
+        "Vue Router",
+        "Vuetify",
+        "ApexCharts"
       ],
       "Delivery": [
         "LEMP",
@@ -745,6 +799,10 @@ export const projects: Project[] = [
       "CSS",
       "JavaScript",
       "Bootstrap",
+      "Vue.js",
+      "Vue Router",
+      "Vuetify",
+      "ApexCharts",
       "LEMP",
       "Linux",
       "Nginx",
@@ -753,11 +811,13 @@ export const projects: Project[] = [
     "contributions": [
       "Web-based loan management system development"
     ],
-    "detail": "Loan management, monitoring, and evaluation system for a PUPR Ministry outsourcing engagement."
+    "detail": "Loan management, monitoring, and evaluation system for a PUPR Ministry outsourcing engagement.",
+    "url": "https://emonitoring.sisda.net/login",
+    "image": "/projects/loan.webp"
   },
   {
     "id": "siva",
-    "number": "14",
+    "number": "15",
     "name": "SIVA Kemenperin",
     "category": "Government & systems",
     "description": "Web platform project for Indonesia’s Ministry of Industry.",
@@ -779,7 +839,7 @@ export const projects: Project[] = [
   },
   {
     "id": "pratista",
-    "number": "15",
+    "number": "16",
     "name": "Pratista Skincare Consultation",
     "category": "Brand & commerce",
     "description": "Company profile and online consultation website for Pratista Skincare.",
@@ -805,7 +865,7 @@ export const projects: Project[] = [
   },
   {
     "id": "koin-mobile",
-    "number": "16",
+    "number": "17",
     "name": "KOIN Application",
     "category": "Mobile & platforms",
     "description": "Mobile application enabling store owners to browse and order products.",
@@ -833,7 +893,7 @@ export const projects: Project[] = [
   },
   {
     "id": "pos",
-    "number": "17",
+    "number": "18",
     "name": "KOIN Point of Sale",
     "category": "Government & systems",
     "description": "A web-based point-of-sale system for products, inventory, and sales, connected with internal ERP systems.",
@@ -886,7 +946,7 @@ export const projects: Project[] = [
   },
   {
     "id": "crm",
-    "number": "18",
+    "number": "19",
     "name": "Bank Jatim Training CRM",
     "category": "Government & systems",
     "description": "CRM training system built for Bank Jatim through an outsourcing engagement.",
@@ -931,7 +991,7 @@ export const projects: Project[] = [
   {
     "id": "americanstandard",
     "image": "/projects/americanstandard.webp",
-    "number": "19",
+    "number": "20",
     "name": "American Standard APAC",
     "category": "Maintenance",
     "description": "Maintenance of the regional American Standard website on Craft CMS.",
@@ -964,7 +1024,7 @@ export const projects: Project[] = [
   {
     "id": "airselangor",
     "image": "/projects/airselangor.webp",
-    "number": "20",
+    "number": "21",
     "name": "Air Selangor",
     "category": "Maintenance",
     "description": "Maintenance of Air Selangor’s WordPress website during my agency engagement.",
@@ -999,7 +1059,7 @@ export const projects: Project[] = [
   {
     "id": "everise",
     "image": "/projects/everise.webp",
-    "number": "21",
+    "number": "22",
     "name": "Everise",
     "category": "Maintenance",
     "description": "Maintenance work on the Everise corporate WordPress website.",
@@ -1033,7 +1093,7 @@ export const projects: Project[] = [
   {
     "id": "misc",
     "image": "/projects/misc.webp",
-    "number": "22",
+    "number": "23",
     "name": "MISC Group",
     "category": "Maintenance",
     "description": "Maintenance of an enterprise corporate website on Umbraco CMS.",
@@ -1066,7 +1126,7 @@ export const projects: Project[] = [
   },
   {
     "id": "wer4pets",
-    "number": "23",
+    "number": "24",
     "name": "WeR4Pets",
     "category": "Mobile & platforms",
     "description": "Maintenance work across a pet-focused mobile application and its backend.",
@@ -1097,7 +1157,7 @@ export const projects: Project[] = [
   },
   {
     "id": "e-archive",
-    "number": "24",
+    "number": "25",
     "name": "PUPR E-Archive",
     "category": "Government & systems",
     "description": "Electronic archive system developed for a PUPR Ministry outsourcing engagement.",
@@ -1141,7 +1201,7 @@ export const projects: Project[] = [
   },
   {
     "id": "natieva",
-    "number": "25",
+    "number": "26",
     "name": "Natieva In-house Website",
     "category": "Brand & commerce",
     "description": "In-house website development for PT. Natieva Global Internasional.",
