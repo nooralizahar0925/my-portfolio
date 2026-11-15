@@ -38,6 +38,10 @@ The production build prerenders the portfolio into static HTML, then React hydra
 
 See [SEO.md](SEO.md) for the implemented settings and Google Search Console verification and sitemap submission steps.
 
+## Visitor analytics
+
+Vercel Web Analytics is integrated using `@vercel/analytics/react`. The shared app includes one `<Analytics />` component, compatible with the prerendered build. The Vercel dashboard framework selector should be **React** for this project. Visitor and page-view data is available in the project's Analytics tab after deployment and site visits. No API key or environment variable is required.
+
 Public website links point to the current live sites, which may have changed since the listed engagement. Public projects use locally stored screenshots of the current live websites in `public/projects/`, captured in November 2026 and compressed as WebP. Internal projects without public access use labeled illustrative artwork.
 
 ## Content references

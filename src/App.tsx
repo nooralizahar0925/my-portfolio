@@ -3,6 +3,7 @@ import { ArrowDown, ArrowRight, ArrowUpRight, Asterisk, Check, ChevronDown, Code
 import { companyBrands, companyProducts, experience, links, projects } from './data';
 import type { Project } from './data';
 import type { PointerEvent as ReactPointerEvent } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 
 const categories = ['All work', 'Brand & commerce', 'Education & research', 'Hospitality', 'Government & systems', 'Mobile & platforms', 'Maintenance'];
 
@@ -170,5 +171,6 @@ export default function App() {
     </main>
     <div className={`contact-dock ${showDock ? 'visible' : ''}`} aria-label="Quick contact" inert={!showDock}><a href={links.whatsapp} target="_blank" rel="noreferrer"><MessageCircle size={16}/> WhatsApp <ArrowUpRight size={13}/></a><a href={links.email} aria-label="Contact by email"><Mail size={17}/></a><a href="#top" aria-label="Back to top"><ArrowUpRight size={17}/></a></div>
     {project && <ProjectDialog project={project} close={() => setProject(null)} />}
+    <Analytics />
   </>;
 }
