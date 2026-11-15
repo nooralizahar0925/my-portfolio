@@ -35,7 +35,7 @@ export const projects: Project[] = [
     "category": "Mobile & platforms",
     "description": "A resident mobile app, village administration dashboard, and API for letter requests, public information, and community services.",
     "role": "Full-Stack Developer",
-    "context": "Gampong Blang Digital",
+    "context": "Pemerintahan Kabupaten Gampong Blang",
     "year": "2026",
     "stack": {
       "Mobile": [
@@ -200,7 +200,7 @@ export const projects: Project[] = [
     "category": "Education & research",
     "description": "A Sitefinity website presenting NTU’s engineering programmes, research, news, and institutional content.",
     "role": "Developer",
-    "context": "NTU Singapore",
+    "context": "Mediatropy",
     "year": "",
     "stack": {
       "CMS": [
@@ -242,7 +242,7 @@ export const projects: Project[] = [
     "category": "Education & research",
     "description": "A custom WordPress website for nanofabrication facilities, equipment, research capabilities, and facility access.",
     "role": "Main Developer",
-    "context": "NTU Nanofab",
+    "context": "Mediatropy",
     "year": "",
     "stack": {
       "CMS": [
@@ -296,7 +296,7 @@ export const projects: Project[] = [
     "category": "Hospitality",
     "description": "A resort website with custom WordPress development, scroll animation, booking widgets, and marketing integrations.",
     "role": "Main Developer",
-    "context": "Kandooma Maldives",
+    "context": "Mediatropy",
     "year": "",
     "stack": {
       "CMS": [
