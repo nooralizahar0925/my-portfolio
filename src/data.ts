@@ -106,7 +106,8 @@ export const projects: Project[] = [
       "Content management, demographics, village information, prayer schedules, and notifications"
     ],
     "detail": "A resident mobile app, village administration dashboard, and API for letter requests, public information, and community services.",
-    "image": "/projects/sapa.webp"
+    "image": "/projects/sapa.webp",
+    "url": "https://gampongblangdigital.com/"
   },
   {
     "id": "hellomatcha",
