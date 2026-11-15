@@ -1,6 +1,6 @@
 # Noor Alizah Afifah R — Portfolio
 
-A responsive portfolio built with React, TypeScript, and Vite. Includes 27 projects, searchable project and technology filters, grid/index views, accessible project dialogs, interactive toolkit tiles, pointer-responsive screenshot cards, scroll reveals, career history, Solusi Proteksi Mandiri, and direct WhatsApp, email, LinkedIn, and GitHub links. Motion respects reduced-motion preferences. No contact form or backend.
+A responsive portfolio built with React, TypeScript, and Vite. Includes 28 projects, searchable project and technology filters, grid/index views, accessible project dialogs, interactive toolkit tiles, pointer-responsive screenshot cards, scroll reveals, career history, Solusi Proteksi Mandiri, and direct WhatsApp, email, LinkedIn, and GitHub links. Motion respects reduced-motion preferences. No contact form or backend.
 
 ## Run locally
 
@@ -64,3 +64,5 @@ Public project references:
 Google Fonts provides optional typography; system fonts are the fallback if it is unavailable.
 
 SkinPen is presented as one project with the International site as its primary link and Ireland, UK, and Germany in the project details. Technologies were checked against the four public sites in November 2026; Calendly was observed on the Ireland and Germany sites.
+
+Vantris Energy is listed under maintenance for Bonsey Jaden / CUE Group. Its screenshot and visible technology stack were checked against [the current public website](https://vantrisenergy.com/) in November 2026.

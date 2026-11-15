@@ -1126,9 +1126,30 @@ export const projects: Project[] = [
     "url": "https://weareeverise.com/"
   },
   {
+    id: 'vantris',
+    number: "24",
+    name: 'Vantris Energy',
+    category: 'Maintenance',
+    description: 'Maintenance of the corporate WordPress website during my engagements with Bonsey Jaden and CUE Group.',
+    role: 'Maintainer',
+    context: 'Bonsey Jaden / CUE Group',
+    year: '',
+    stack: {
+      'CMS & theme': ['WordPress', 'PHP', 'Custom WordPress theme'],
+      'Frontend': ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Fancybox', 'VenoBox', 'NiceScroll', 'Glide.js'],
+      'Content tools': ['TablePress', 'DearFlip', 'Popup Maker'],
+      'Analytics': ['Google Analytics', 'Google Tag Manager', 'Google Site Kit'],
+    },
+    tags: ['WordPress', 'PHP', 'Custom WordPress theme', 'HTML', 'CSS', 'JavaScript', 'jQuery', 'Fancybox', 'VenoBox', 'NiceScroll', 'Glide.js', 'TablePress', 'DearFlip', 'Popup Maker', 'Google Analytics', 'Google Tag Manager', 'Google Site Kit'],
+    contributions: ['Corporate WordPress website maintenance during my Bonsey Jaden and CUE Group engagements'],
+    detail: 'Corporate website maintenance during my engagements with Bonsey Jaden and CUE Group. The current Vantris Energy website presents the company’s services, assets, corporate information, investor links, and media releases.',
+    url: 'https://vantrisenergy.com/',
+    image: '/projects/vantris.webp',
+  },
+  {
     "id": "misc",
     "image": "/projects/misc.webp",
-    "number": "24",
+    "number": "25",
     "name": "MISC Group",
     "category": "Maintenance",
     "description": "Maintenance of an enterprise corporate website on Umbraco CMS.",
@@ -1161,7 +1182,7 @@ export const projects: Project[] = [
   },
   {
     "id": "wer4pets",
-    "number": "25",
+    "number": "26",
     "name": "WeR4Pets / PEDIGREE® App",
     "category": "Mobile & platforms",
     "description": "Maintenance of the PEDIGREE® (WeR4Pets) mobile app and its backend using React Native and Express.",
@@ -1196,7 +1217,7 @@ export const projects: Project[] = [
   },
   {
     "id": "e-archive",
-    "number": "26",
+    "number": "27",
     "name": "PUPR E-Archive",
     "category": "Government & systems",
     "description": "Electronic archive system developed for a PUPR Ministry outsourcing engagement.",
@@ -1240,7 +1261,7 @@ export const projects: Project[] = [
   },
   {
     "id": "natieva",
-    "number": "27",
+    "number": "28",
     "name": "Natieva In-house Website",
     "category": "Brand & commerce",
     "description": "In-house website development for PT. Natieva Global Internasional.",
