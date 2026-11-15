@@ -354,7 +354,7 @@ export const projects: Project[] = [
     "category": "Hospitality",
     "description": "WordPress development for the Maldives resort, including custom content blocks, SEO, analytics, and booking integrations.",
     "role": "Developer",
-    "context": "Bonsey Jaden",
+    "context": "Bonsey Jaden / Mediatropy",
     "year": "2023",
     "stack": {
       "CMS": [
@@ -676,7 +676,7 @@ export const projects: Project[] = [
     "category": "Brand & commerce",
     "description": "Maintenance of a customer rewards platform with skincare samples, receipt uploads, points, and campaigns.",
     "role": "Maintainer",
-    "context": "Bonsey Jaden / CUE Group",
+    "context": "Mediatropy",
     "year": "",
     "stack": {
       "CMS": [
