@@ -148,7 +148,7 @@ export const projects: Project[] = [
     "category": "Brand & commerce",
     "description": "Custom WordPress website for a Singapore matcha brand, with product discovery, education, and a responsive editorial layout.",
     "role": "Main Developer",
-    "context": "Hello Matcha",
+    "context": "Mediatropy",
     "year": "",
     "stack": {
       "CMS": [
